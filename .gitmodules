@@ -1,6 +1,0 @@
-[submodule "api-server"]
-	path = api-server
-	url = git@github.com:innonymous/api-server.git
-[submodule "web-client"]
-	path = web-client
-	url = git@github.com:innonymous/web-client.git
