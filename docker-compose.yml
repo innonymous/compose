@@ -1,0 +1,34 @@
+version: '3.9'
+
+services:
+  api-server:
+    image: smthngslv/innonymous-api-server:latest
+    environment:
+      API_KEY: ${API_KEY}
+      API_AMQP_URL: ${AMQP_URL}
+      API_DATABASE_URL: ${DATABASE_URL}
+    ports:
+      - ${API_PORT}:8000
+    depends_on:
+      - rabbitmq
+      - postgres
+    restart: on-failure
+
+  rabbitmq:
+    image: rabbitmq:management
+    environment:
+      RABBITMQ_DEFAULT_USER: ${AMQP_USER}
+      RABBITMQ_DEFAULT_PASS: ${AMQP_PASSWORD}
+    ports:
+      - ${AMQP_PORT}:5672
+      - ${AMQP_MANAGEMENT_PORT}:15672
+    restart: on-failure
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+    ports:
+      - ${DATABASE_PORT}:5432
+    restart: on-failure
