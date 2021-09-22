@@ -1,12 +1,13 @@
 # [Innonymous](https://innonymous.tk/)
 
-<img src="images/logo.png" align="left" width=128 height=128 style="margin: 0px 10px 0px 0px"> Innonymous is open-source light-weight super-fast and anonymous chat. Backend in [python fast-api](https://fastapi.tiangolo.com/), client-side in ReastJS, using web-sockets.Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPCHA.
+<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is open-source light-weight super-fast and anonymous chat. Backend in [python fast-api](https://fastapi.tiangolo.com/), client-side in ReastJS, using web-sockets.Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPCHA.
 
-
--
+<br>
 
 
 Since we have clear and easy [documentation](https://innonymous.tk/api/docs) you can use our backend and create your own client-side application! 
+
+<br>
 
 ## Source code
 
@@ -19,12 +20,12 @@ You may notice that this repo does not have any source code. We decided to split
 ## Screenshots
 
 <p align="center">
-<img src="images/app_example1.png" width="400px" />
+<img src="images/app_example1.png" width="800px" />
 </p>
 <p align="center">
 
-<img src="images/app_example2.png" width="200px" />
-<img src="images/app_example3.png" width="198px" />
+<img src="images/app_example2.png" width="400px" />
+<img src="images/app_example3.png" width="396px" />
 </p>
 
 
