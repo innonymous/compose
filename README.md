@@ -31,7 +31,9 @@ You may notice that this repo does not have any source code. We decided to split
 
 ## Quick start
 
-1. Make sure you have [docker-compose](https://docs.docker.com/compose/install/) on your machine.
+1. [Install Docker and Docker Compose](https://docs.docker.com/get-docker/) if you don't have it already
+    * On Mac and Windows, Docker comes with Docker Compose
+    * On Linux you need to install Docker Engine and Docker Compose separately
 
 2. Configure `.env` file:
 ```sh
@@ -41,7 +43,7 @@ $ cp .env.example .env
 |--|--|--|
 |AMQP_PASSWORD| RabbitMQ in docker container will use it, so this password only for infrastructure usage. However you should keep it in secret. |mycoolpassword1|
 |DATABASE_PASSWORD| Infra password for postgres |mycoolpassword2|
-|API_KEY| 32-bytes infra token for backend JWT generation |12345678901234567890123456789012|
+|API_KEY| 32 bytes in hex, can be generated as `openssl rand -hex 32` for backend JWT generation |12345678901234567890123456789012|
 
 
 3. Now start the whole project. You can add `-d` flag to run in daemon mode:
@@ -49,6 +51,8 @@ $ cp .env.example .env
 ```sh
 docker-compose up
 ```
+
+4. Go to `localhost:8000` and test your chat!
 
 <hr>
 <br>
