@@ -5,7 +5,7 @@ services:
     image: smthngslv/innonymous-api-server:latest
     environment:
       API_KEY: ${API_KEY}
-      API_AMQP_URL: ${AMQP_URL}
+      API_AMQP_URL: ${API_AMQP_URL}
       API_DATABASE_URL: ${DATABASE_URL}
     ports:
       - ${API_PORT}:8000
