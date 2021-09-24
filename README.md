@@ -33,7 +33,7 @@ You may notice that this repo does not have any source code. We decided to split
 
 ### [Client side](https://github.com/innonymous/web-client)
 
-Below you can find UML/Design diagram of React containers and web UI boxes
+Below you can find UML/Design diagram of React containers and web UI boxes:
 
 
 <p align="center">
@@ -42,8 +42,11 @@ Below you can find UML/Design diagram of React containers and web UI boxes
 
 ### [Server side](https://github.com/innonymous/api-server)
 
-Server backend is very easy, understandable and fast
+Server backend is very easy, understandable and fast:
 
+<p align="center">
+<img src="images/arch_back.png"/>
+</p>
 
 
 ## Quick start
