@@ -1,6 +1,6 @@
 # [Innonymous](https://innonymous.tk/)
 
-<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is open-source light-weight super-fast and anonymous chat. Backend in [python fast-api](https://fastapi.tiangolo.com/), client-side in ReastJS, using web-sockets.Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPCHA.
+<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPCHA.
 
 <br>
 
@@ -29,7 +29,27 @@ You may notice that this repo does not have any source code. We decided to split
 </p>
 
 
+## Architecture brief view
+
+### [Client side](https://github.com/innonymous/web-client)
+
+Below you can find UML/Design diagram of React containers and web UI boxes
+
+
+<p align="center">
+<img src="images/arch_front.png"/>
+</p>
+
+### [Server side](https://github.com/innonymous/api-server)
+
+Server backend is very easy, understandable and fast
+
+
+
+
 ## Quick start
+
+Start your own version of Innonymous is as easy as 1-2-3:
 
 1. [Install Docker and Docker Compose](https://docs.docker.com/get-docker/) if you don't have it already
     * On Mac and Windows, Docker comes with Docker Compose
@@ -52,7 +72,7 @@ $ cp .env.example .env
 docker-compose up
 ```
 
-4. Go to `localhost:8000` and test your chat!
+Done! Now go to `localhost:8000` and test your chat!
 
 <hr>
 <br>
