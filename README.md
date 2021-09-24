@@ -46,10 +46,12 @@ Server backend is very easy, understandable and fast
 
 
 
-
 ## Quick start
 
-Start your own version of Innonymous is as easy as 1-2-3:
+We alreay pushed Innonymous to production: https://innonymous.tk/
+
+
+However you can start your own version of Innonymous! It is as easy as 1-2-3:
 
 1. [Install Docker and Docker Compose](https://docs.docker.com/get-docker/) if you don't have it already
     * On Mac and Windows, Docker comes with Docker Compose
