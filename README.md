@@ -20,13 +20,15 @@ You may notice that this repo does not have any source code. We decided to split
 
 ## Metrics
 
-Our backend [passed](https://overload.yandex.net/460788#tab=test_data&tags=&plot_groups=main&machines=&metrics=&slider_start=1631255404&slider_end=1631255689&compress_ratio=1) the load test of 100-150 `RPS` (requests per second). Tests were done using Yandex.Overload
+Our backend [passed](https://overload.yandex.net/460788#tab=test_data&tags=&plot_groups=main&machines=&metrics=&slider_start=1631255404&slider_end=1631255689&compress_ratio=1) the load test of 100-150 `RPS` (requests per second). Tests were done using Yandex.Overload **on one core**.
 
 Here you can see a plot of the testing results. Backend can easy handle 100 `RPS`, then `response time` starts increasing.
 
 <p align="center">
 <img src="images/yatank.png" />
 </p>
+
+Our system is scalable, so it is possbile to create several backend instances and increase `RPS` even more!
 
 ## Screenshots
 
