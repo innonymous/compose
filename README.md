@@ -1,6 +1,6 @@
 # [Innonymous](https://innonymous.tk/)
 
-<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPCHA.
+<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPTCHA.
 
 <br>
 
@@ -19,13 +19,14 @@ You may notice that this repo does not have any source code. We decided to split
 
 ## Screenshots
 
+Desktop version:
 <p align="center">
 <img src="images/app_example1.png" width="800px" />
 </p>
-<p align="center">
 
-<img src="images/app_example2.png" width="400px" />
-<img src="images/app_example3.png" width="396px" />
+Mobile version:
+<p align="center">
+<img src="images/app_example2.jpg" width="400px" />
 </p>
 
 
