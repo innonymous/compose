@@ -4,7 +4,6 @@
 
 <br>
 
-
 Since we have clear and easy [documentation](https://innonymous.tk/api/docs) (powered by swagger) you can use our backend and create your own client-side application! 
 
 <br>
@@ -31,6 +30,8 @@ Here you can see a plot of the testing results. Backend can easy handle 100 `RPS
 Our system is scalable, so it is possbile to create several backend instances and increase `RPS` even more!
 
 ## Screenshots
+
+Demo of project - [here](https://www.loom.com/share/6995e1a95db54426879e03e139dd61d5)
 
 Desktop version:
 <p align="center">
