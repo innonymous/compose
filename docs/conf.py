@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'innonymous'
-copyright = '2021, @sevenzing, @smthngslv, @nebro239'
+project = 'Innonymous'
+copyright = '2021, Lymarenko Lev, Ivan Izmailov, Ivan Obraztsov'
 author = '@sevenzing, @smthngslv, @nebro239'
 
 
@@ -28,6 +28,7 @@ author = '@sevenzing, @smthngslv, @nebro239'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
