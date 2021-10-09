@@ -67,7 +67,7 @@ docker pull smthngslv/innonymous-api-server
 docker-compose up
 ```
 
-Done! Now go to `localhost:8000` and test your chat!
+Done! Now go to `localhost:8080` and test your chat!
 
 <hr>
 <br>
