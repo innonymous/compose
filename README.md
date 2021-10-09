@@ -62,6 +62,8 @@ $ cp .env.example .env
 3. Now start the whole project. You can add `-d` flag to run in daemon mode:
 
 ```sh
+docker pull smthngslv/innonymous-web-client
+docker pull smthngslv/innonymous-api-server
 docker-compose up
 ```
 
