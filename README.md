@@ -35,7 +35,8 @@ Mobile version:
 
 ## Quick start
 
-We alreay pushed Innonymous to production: https://innonymous.tk/
+We alreay pushed Innonymous to production: https://innonymous.tk/ **(We DO NOT accept any responsibility for the content of the site. Anyone and anything can write)**
+
 
 
 However you can start your own version of Innonymous! It is as easy as 1-2-3:
