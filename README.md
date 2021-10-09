@@ -1,6 +1,8 @@
 # [Innonymous](https://innonymous.tk/)
 
-<img src="images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPTCHA.
+> IMPORTANT NOTE FOR THOSE WHO CHECK OUR WORK IN INNOPOLIS: this readme only for brief view of project. All important information for grading you can find in our docs: innonymous.rtfd.io
+
+<img src="docs/src/images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPTCHA.
 
 <br>
 
@@ -16,51 +18,18 @@ You may notice that this repo does not have any source code. We decided to split
 + Web Client - https://github.com/innonymous/web-client
 + Compose (this repo) - https://github.com/innonymous/compose
 
-
-## Metrics
-
-Our backend [passed](https://overload.yandex.net/460788#tab=test_data&tags=&plot_groups=main&machines=&metrics=&slider_start=1631255404&slider_end=1631255689&compress_ratio=1) the load test of 100-150 `RPS` (requests per second). Tests were done using Yandex.Overload **on one core**.
-
-Here you can see a plot of the testing results. Backend can easy handle 100 `RPS`, then `response time` starts increasing.
-
-<p align="center">
-<img src="images/yatank.png" />
-</p>
-
-Our system is scalable, so it is possbile to create several backend instances and increase `RPS` even more!
-
 ## Screenshots
 
 Demo of project - [here](https://www.loom.com/share/6995e1a95db54426879e03e139dd61d5)
 
 Desktop version:
 <p align="center">
-<img src="images/app_example1.png" width="800px" />
+<img src="docs/src/images/app_example1.png" width="800px" />
 </p>
 
 Mobile version:
 <p align="center">
-<img src="images/app_example2.jpg" width="400px" />
-</p>
-
-
-## Architecture brief view
-
-### [Client side](https://github.com/innonymous/web-client)
-
-Below you can find UML/Design diagram of React containers and web UI boxes:
-
-
-<p align="center">
-<img src="images/arch_front.png"/>
-</p>
-
-### [Server side](https://github.com/innonymous/api-server)
-
-Server backend is very easy, understandable and fast:
-
-<p align="center">
-<img src="images/arch_back.png"/>
+<img src="docs/src/images/app_example2.jpg" width="400px" />
 </p>
 
 
@@ -84,6 +53,9 @@ $ cp .env.example .env
 |AMQP_PASSWORD| RabbitMQ in docker container will use it, so this password only for infrastructure usage. However you should keep it in secret. |mycoolpassword1|
 |DATABASE_PASSWORD| Infra password for postgres |mycoolpassword2|
 |API_KEY| 32 bytes in hex, can be generated as `openssl rand -hex 32` for backend JWT generation |12345678901234567890123456789012|
+|API_PORT| port for api. can be any free port| 8000 |
+|WEB_PORT| port of web service (client side app)| 8080|
+
 
 
 3. Now start the whole project. You can add `-d` flag to run in daemon mode:
