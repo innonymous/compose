@@ -35,7 +35,7 @@ Mobile version:
 
 ## Quick start
 
-We alreay pushed Innonymous to production: https://innonymous.tk/ **(We DO NOT accept any responsibility for the content of the site. Anyone and anything can write)**
+We alreay pushed Innonymous to production: https://innonymous.tk/ **(We DO NOT accept any responsibility for the content of the site. Anyone can write abything)**
 
 
 
@@ -69,11 +69,13 @@ $ docker-compose up
 
 Done! Now go to `localhost:8080` and test your chat!
 
+> NOTE: after restarting database, you should clear your browser cookies. It is even better to use `Incognito Window` for local testing.
+
 <hr>
 <br>
 
 <center> 
 
-*You can say and write whatever you think, but you should think carefully* 
+*We DO NOT accept any responsibility for the content of the site. Anyone can write abything* 
 
 </center>
