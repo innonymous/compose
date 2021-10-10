@@ -1,6 +1,6 @@
 # [Innonymous](https://innonymous.tk/)
 
-> IMPORTANT NOTE FOR THOSE WHO CHECK OUR WORK IN INNOPOLIS: this readme only for brief view of project. All important information for grading you can find in our docs: innonymous.rtfd.io
+> IMPORTANT NOTE FOR THOSE WHO CHECK OUR WORK IN INNOPOLIS: this readme only for brief view of project. All important information for grading you can find in our docs: https://innonymous.rtfd.io
 
 <img src="docs/src/images/logo.png" align="left" width=100 style="margin: 0px 10px 0px 0px"> Innonymous is mobile-ready open-source light-weight and anonymous chat. Backend in [python FastAPI](https://fastapi.tiangolo.com/), client-side in [ReastJS](https://reactjs.org/), using web-sockets. Persistant storages are postgres and rabbitmq. Backend has anti spam registration using auto-generated CAPTCHA.
 
@@ -62,9 +62,9 @@ $ cp .env.example .env
 3. Now start the whole project. You can add `-d` flag to run in daemon mode:
 
 ```sh
-docker pull smthngslv/innonymous-web-client
-docker pull smthngslv/innonymous-api-server
-docker-compose up
+$ docker pull smthngslv/innonymous-web-client
+$ docker pull smthngslv/innonymous-api-server
+$ docker-compose up
 ```
 
 Done! Now go to `localhost:8080` and test your chat!

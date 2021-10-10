@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Innonymous's documentation!
+Full Innonymous's documentation!
 ======================================
+
+Github link: https://github.com/innonymous/compose
+
+Here is project description according to grading criteria.
 
 .. toctree::
 
