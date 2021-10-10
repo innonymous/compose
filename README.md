@@ -35,7 +35,7 @@ Mobile version:
 
 ## Quick start
 
-We alreay pushed Innonymous to production: https://innonymous.tk/ **(We DO NOT accept any responsibility for the content of the site. Anyone can write abything)**
+We already pushed Innonymous to production: https://innonymous.tk/ **(We DO NOT accept any responsibility for the content of the site. Anyone can write anything)**
 
 
 
@@ -76,6 +76,6 @@ Done! Now go to `localhost:8080` and test your chat!
 
 <center> 
 
-*We DO NOT accept any responsibility for the content of the site. Anyone can write abything* 
+*We DO NOT accept any responsibility for the content of the site. Anyone can write anything* 
 
 </center>
